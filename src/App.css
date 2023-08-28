@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-family: ubuntu;
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.result,
+label {
+  font-family: poppins;
+  display: block;
+}
+
+.exchange,
+.result {
+  font-family: poppins;
+  width: fit-content;
+  display: flex;
+  margin: 1rem auto auto;
+  cursor: pointer;
+}
+
+.selection {
+  font-family: poppins;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(165, 165, 165);
+  padding: .6rem;
+  border-radius: .2rem;
+  margin-bottom: 0.8rem;
 }
