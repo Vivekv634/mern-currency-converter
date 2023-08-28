@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mern-currency-converter/static/css/main.61ac8b8e.css",
+    "main.js": "/mern-currency-converter/static/js/main.0270033e.js",
+    "index.html": "/mern-currency-converter/index.html",
+    "main.61ac8b8e.css.map": "/mern-currency-converter/static/css/main.61ac8b8e.css.map",
+    "main.0270033e.js.map": "/mern-currency-converter/static/js/main.0270033e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61ac8b8e.css",
+    "static/js/main.0270033e.js"
+  ]
+}
